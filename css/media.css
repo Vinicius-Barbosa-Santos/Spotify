@@ -1,0 +1,95 @@
+@media only screen and (max-width: 720px)  {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-left, .footer-right {
+        margin-top: 40px;
+    }
+
+    .footer-content-menu {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 602px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-mobile img {
+        height: 50px;
+        margin-top: -10px;
+    }
+    
+    #content h1 {
+        font-size: 50px;
+    }
+
+    #content p {
+        text-align: center;
+    }
+
+    #content a {
+        font-size: 12px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-left, .footer-right {
+        margin-top: 40px;
+    }
+
+    .footer-content-menu {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 483px) {
+    .footer-content-menu {
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .empresa , .comunidades , .links {
+        margin-bottom: 30px;
+    }
+}

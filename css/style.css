@@ -1,0 +1,161 @@
+* {
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.header {
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul li a:hover {
+    color: #1ed760;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    background-size: auto;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    background-position: center top;
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+}
+
+#content h1 {
+    font-size: 90px;
+    max-width: 900px;
+    color: #1ed760;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content p {
+    color: #1ed760;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#content a {
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    background-color: #1ed760;
+    color:  rgb(41, 65, 171);
+    text-transform: uppercase;
+}
+
+footer {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+    margin-top: 80px;
+}
+
+.footer-content {
+    display: flex;
+    margin-right: 20px;
+}
+
+.insta, .twitter, .face {
+    margin: 0px 5px;
+    padding: 0px 5px;
+    border-radius: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.insta img, .twitter img, .face img {
+    width: 40px;
+}
+
+.footer-content-menu {
+    display: flex;
+}
+
+.footer-content-menu a li{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.footer-content-menu a li:hover {
+    color: #1ed760;
+}
+
+.footer-content-menu .head {
+    color: #919496;
+}
+
+.copy {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.copy .container {
+    justify-content: center;
+}
+
+.text {
+    margin-bottom: 60px;
+}
